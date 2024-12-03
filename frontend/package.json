@@ -1,0 +1,18 @@
+{
+  "name": "prova123daje",
+  "version": "1.0.0",
+  "description": "A simple reusable Button component.",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vite"
+  },
+  "keywords": ["react", "button", "typescript", "component"],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
