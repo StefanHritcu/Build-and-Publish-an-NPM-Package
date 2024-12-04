@@ -8,11 +8,24 @@
     "build": "tsc",
     "dev": "vite"
   },
-  "keywords": ["react", "button", "typescript", "component"],
+  "keywords": [
+    "react",
+    "button",
+    "typescript",
+    "component"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.13",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
   }
 }
