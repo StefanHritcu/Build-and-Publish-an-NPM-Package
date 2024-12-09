@@ -1,4 +1,10 @@
 # Build-and-Publish-an-NPM-Package
+
+## FOR DEVELOPERS (TYPESCRIPT AND REACT/REDUX NPM INSTALLATIONS)
+- npm i --save-dev typescript @types/react @types/react-dom
+- npm i @reduxjs/toolkit react-redux
+
+
 A React and TypeScript project that demonstrates how to create and publish NPM packages step-by-step. Perfect for learning package development!
 # Responsive Typography System
 A responsive typography system for React, allowing dynamic font sizing with Tailwind CSS. Easily reusable for various HTML elements like headers, paragraphs, and more, with customizable styles.
@@ -20,8 +26,4 @@ const App: React.FC = () => (
     </Typography>
   </div>
 );
-tsx```
 
-## FOR DEVELOPERS (TYPESCRIPT AND REACT/REDUX NPM INSTALLATIONS)
-- npm i --save-dev typescript @types/react @types/react-dom
-- npm i @reduxjs/toolkit react-redux
